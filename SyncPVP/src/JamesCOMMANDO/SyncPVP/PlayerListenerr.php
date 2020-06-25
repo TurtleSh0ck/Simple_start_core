@@ -23,7 +23,7 @@ class PlayerListenerr implements PlayerListener{
         if(!$event->getPlayer()->hasPlayedBefore()){
             $player->sendForm(new CustomForm("Welcome to AtlasPVP",
             [
-                new Label("Welcome to AtlasPVP we hope you enjoy our server!")
+                new Label("Welcome to SyncPVP we hope you enjoy our server!")
             ],
             function (Player $player, CustomFormResponse $response){
                 $player->sendMessage(TextFormat::GOLD . "Hope you like our server!");
