@@ -1,10 +1,2 @@
 # SyncPVP
-Our main Core
-
-# What are we in need right now?
-
-We really in need of more active developers that could atleast dev some of it here.
-
-# Want to add your own plugins here?
-
-Absolutely!
+My old core that I started but never touched again because I didn't have the motivation to continue
