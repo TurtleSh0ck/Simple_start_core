@@ -1,0 +1,27 @@
+---
+#########
+version: 1.0.0
+#########
+PlayerNotFound: "Player was not found!"
+# prefix
+prefix: "[SyncPVP]"
+# feed
+Feed-Message: "You have been fed!"
+FeedOther-Message: "You have fed {player}"
+#fly
+FlyEnabled-Message: "You can now fly!"
+FlyDisabled-Message: "You can not fly now!"
+FlyEnabledOther-Message: "{player} is now allowed to fly!"
+FlyDisabledOther-Message: "{player} is now not allowed to fly!"
+#heal
+HealthSet-Message: "You have been healed!"
+HealthSetOther-Message: "You have healed {player}"
+# Gamemode Messages
+GamemodeChange-Message: "Your gamemode was changed!"
+GamemodeChangeOther-Message: "You have changed {player} gamemode!"
+#vanish
+VanishEnabled-Message: "You are now Invisible!"
+VanishDisabled-Message: "You are now not invisible!"
+VanishEnabledOther-Message: "{player} is now vanished!"
+VanishDisabledOther-Message: "{player} is now not vanished!"
+...

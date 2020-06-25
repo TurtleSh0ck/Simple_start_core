@@ -1,0 +1,12 @@
+---
+#######
+version: 1.0.0
+#######
+
+# Here you can decide if these commands are enabled or disabled!
+feed: true
+gamemode: true
+fly: true
+heal: true
+v: true
+...
