@@ -36,11 +36,13 @@ class feeed extends Command
         if(isset($args[0])){
             $player2 = $this->plugin->getServer()->getPlayer($args[0]);
             $player2->setFood(20);
+            $player2->setSaturation(20);
             $hom = $player2->getName();
             $player2->sendMessage("You have been fed!");
             $sender->sendMessage($this->convert($hom, ("You have fed {}")));
         } else{
             $sender->setFood(20);
+            $sender->setSaturation(20);
             $sender->sendMessage("You have been fed!");
         }
         $issuer = $sender->getName();
