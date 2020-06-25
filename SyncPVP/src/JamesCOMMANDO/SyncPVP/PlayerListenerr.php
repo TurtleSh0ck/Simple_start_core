@@ -16,7 +16,7 @@ use pocketmine\Player;
 use pocketmine\utils\TextFormat;
 
 class PlayerListenerr implements PlayerListener{
-
+/*
     public function onJoin(PlayerJoinEvent $event){
         $player = $event->getPlayer();
         $player->removeAllEffects();
@@ -43,5 +43,5 @@ class PlayerListenerr implements PlayerListener{
     public function onLeave(PlayerQuitEvent $event){
         $player = $event->getPlayer();
     }
-
+*/
 }
