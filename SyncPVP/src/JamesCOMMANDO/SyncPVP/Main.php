@@ -73,7 +73,7 @@ class Main extends PluginBase implements Listener {
 
     public function onPlayerJoin(Player $player, PlayerJoinEvent $event){
         
-        $player->sendMessage("Welcome to AtlasPVP we hope you like our server!");
+        $player->sendMessage("Welcome to SyncPVP we hope you like our server!");
     }
 
 }
